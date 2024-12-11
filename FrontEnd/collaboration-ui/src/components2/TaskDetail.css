@@ -1,0 +1,11 @@
+.task-detail {
+    padding: 1rem;
+  }
+  
+  .task-detail h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .task-detail p {
+    margin: 0.5rem 0;
+  }

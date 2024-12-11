@@ -1,0 +1,36 @@
+.review-request-detail {
+    padding: 1rem;
+  }
+  
+  .review-request-detail h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .review-request-detail p {
+    margin: 0.5rem 0;
+  }
+  
+  .review-request-detail form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .review-request-detail form textarea,
+  .review-request-detail form select,
+  .review-request-detail form button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .review-request-detail form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .review-request-detail form button:hover {
+    background-color: #0056b3;
+  }

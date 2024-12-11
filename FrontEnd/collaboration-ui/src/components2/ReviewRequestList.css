@@ -1,0 +1,16 @@
+.review-request-list {
+    padding: 1rem;
+  }
+  
+  .review-request-list h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .review-request-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .review-request-list ul li {
+    margin-bottom: 0.5rem;
+  }

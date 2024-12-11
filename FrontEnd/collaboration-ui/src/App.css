@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.navbar ul li a:hover {
+  background-color: #444;
+  text-decoration: underline;
+}
+
+.dashboard {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 1rem;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.project-list,
+.task-list,
+.project-detail,
+.task-detail,
+.auth {
+  padding: 1rem;
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth input,
+.auth button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.auth input:focus,
+.auth button:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.auth button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.auth button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .navbar ul li a {
+    padding: 0.25rem 0.5rem;
+  }
+}

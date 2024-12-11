@@ -1,0 +1,49 @@
+.task-list {
+    padding: 1rem;
+  }
+  
+  .task-list h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .task-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .task-list ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .task-list ul li a:hover {
+    color: #007bff;
+  }
+  
+  .task-list form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .task-list form input,
+  .task-list form button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .task-list form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .task-list form button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,16 @@
+.pending-reviews {
+    padding: 1rem;
+  }
+  
+  .pending-reviews h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .pending-reviews ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pending-reviews ul li {
+    margin-bottom: 0.5rem;
+  }
